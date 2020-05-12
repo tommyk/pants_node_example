@@ -1,5 +1,6 @@
 node_module(
     sources=["package.json", "yarn.lock", "src/*", "public/*"],
+    #this has to be here or else it won't have any node_modules installed...
     package_manager='yarn',
 )
 
